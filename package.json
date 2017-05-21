@@ -1,7 +1,7 @@
 {
   "name": "inspect-compose",
   "version": "0.0.0",
-  "description": "curry with debuggable glory",
+  "description": "compose with debuggable glory",
   "main": "index.js",
   "scripts": {
     "test": "jest"
