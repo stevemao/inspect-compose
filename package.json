@@ -1,0 +1,35 @@
+{
+  "name": "inspect-compose",
+  "version": "0.0.0",
+  "description": "curry with debuggable glory",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/inspect-compose.git"
+  },
+  "keywords": [
+    "curry",
+    "compose",
+    "debug",
+    "toString",
+    "debuggable",
+    "inspect",
+    "fp",
+    "functional",
+    "programming",
+    "test"
+  ],
+  "author": "Steve Mao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevemao/inspect-compose/issues"
+  },
+  "homepage": "https://github.com/stevemao/inspect-compose#readme",
+  "devDependencies": {
+    "inspect-curry": "^1.0.0",
+    "jest": "^20.0.3"
+  }
+}
