@@ -3,7 +3,12 @@ var compose = function() {
 
   function f(result) {
     for (var i = fns.length - 1; i > -1; i--) {
-      result = fns[i].call(this, result);
+      try {
+        result = fns[i].call(this, result);
+      } catch(e) {
+        e.message = f.toString()+' blew up on '+fns[i].toString()
+        throw(e)
+      }
     }
     return result;
   };
