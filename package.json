@@ -1,6 +1,6 @@
 {
   "name": "inspect-compose",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "compose with debuggable glory",
   "main": "index.js",
   "scripts": {
